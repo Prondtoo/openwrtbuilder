@@ -8,7 +8,7 @@ echo "src-git small8 https://github.com/kenzok8/small-package" >> ./feeds.conf.d
 ./scripts/feeds install -a
 
 # Download config file
-wget -O .config https://cdn.pzwa.net/file/pzwashare/configabc
+wget -O .config $CONFIG_URL
 
 # Generate configuration file
 make defconfig

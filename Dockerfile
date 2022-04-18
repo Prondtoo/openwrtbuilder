@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 ENV TZ=UTC
+ENV CONFIG_URL="https://cdn.pzwa.net/file/pzwashare/configabc"
 ENV B2_APPLICATION_KEY_ID=""
 ENV B2_APPLICATION_KEY=""
 ARG UNAME=openwrt
